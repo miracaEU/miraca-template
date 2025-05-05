@@ -1,4 +1,4 @@
-from src.example import example_function
+from miraca_template.example import example_function
 
 
 def test_example_function():

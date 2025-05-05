@@ -1,4 +1,4 @@
-name: miraca
+name: miraca_template
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,6 @@ dependencies:
   - pytest
   - black
   - ruff
+  - ipykernel
+  - pip:
+   - -e .
