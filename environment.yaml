@@ -13,4 +13,5 @@ dependencies:
   - ruff
   - ipykernel
   - pip:
-   - -e .
+      - "-e ."
+      - git+https://github.com/miracaEU/miraca-book.git
